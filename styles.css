@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+  }
+  .section-1 {
+    background: #1abc9c;
+  }
+  .section-2 {
+    background: #3498db;
+    opacity: 0; /* Inicialmente oculta */
+    transform: scale(0.8); /* Escala inicial para el efecto de entrada */
+  }
+  .section-3 {
+    background: #9b59b6;
+  }
